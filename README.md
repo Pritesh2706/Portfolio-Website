@@ -38,7 +38,7 @@ Use the contact links to reach out or download my resume for more details.
 
 🔵Future Plans
 
-Add more projects, including advanced data dashboards and machine learning demos.
+Add more projects, including advanced data dashboards and python project.
 
 Enhance the design with animations and mobile optimization.
 
