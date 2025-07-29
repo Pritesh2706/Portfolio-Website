@@ -10,7 +10,9 @@ This portfolio highlights my journey with a clean design, featuring sections for
 •Technologies Used
 
 Languages: HTML, CSS, Python
+
 Framework: Django
+
 Database: SQLite
 
 •Features
