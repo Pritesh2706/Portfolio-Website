@@ -1,0 +1,185 @@
+{% load static%}
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portf </title>
+    <link rel="icon" type="image/x-icon" href="./Images/favicon.jpeg">
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>`
+    
+    <!-- Navbar Section -->
+    <nav id="navbar" class="flex s-around bg-color">
+        <div class="left-nav">
+            <h2 class="t-white">Portfolio</h2>
+        </div>
+        <div class="right-nav">
+            <ul class="flex">
+                <li><a href="#home" class="t-white roboto">Home <i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#about" class="t-white roboto">About Me <i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#skills" class="t-white roboto">Skills <i class="fa-solid fa-code"></i></a></li>
+                <li><a href="#Projects" class="t-white roboto">Projects <i class="fas fa-project-diagram"></i></a></li>
+                <li><a href="#Contact" class="t-white roboto">Contact <i class="fa-solid fa-rocket"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+        
+
+   <!-- Home Section -->
+    <section id="home" class="flex s-around sw-80 m-auto">
+        <div class="home-left flex items-center">
+            <div class="home-content">
+                <h6 class="poppinss">Hi, I'm</h6>
+                <h1 class="t-white">PRITESH BHERE</h1>
+                <h4 class="poppinss" style="font-size: xxx-large">Python Developer|Data Analyst</h4>
+                <a href="{% static 'pdf/django.pdf' %}" target="_blank">
+                    <button class="btn poppins">Resume</button></a>
+                    
+                <a class="btn live poppins" id="hireme" href="https://www.linkedin.com/in/pritesh-bhere-712213350/" target="_blank">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-right flex s-center items-center">
+            <div class="circle flex s-center items-center" id="mainImage">
+                <img src="{% static 'images/mypic.png'%}" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1 class="t-center my-2 t-white f-2">About Me</h1>
+        <div class="about-container flex s-around ">
+            <div class=" about-left flex s-center items-center">
+                <!-- Here in src replade the given link with your secondary image link -->
+                <img src="{%static 'images/dog.png'%}" alt="" style="width: 60%;">
+            </div>
+
+            <div class="about-right flex">
+                <div class="about-content">
+                    <h1 class="t-white m-b-1 poppins">Pritesh Bhere</h1>
+                    <p class="t-white poppins">I am Pritesh Ramchandra Bhere, a passionate and detail-oriented B.C.A. student from Tilak Maharashtra Vidyapeeth, Pune, with a strong foundation in Python, web development, data analysis, and the Django framework. I am highly motivated to build a career in software development and data analytics, and I constantly strive to enhance my technical and problem-solving skills.</p>
+                    <a class="btn " id="hireme"
+                        href="https://www.linkedin.com/in/pritesh-bhere-712213350/">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Skills Section -->
+    <section id="skills">
+        <h1 class="t-center my-2 t-white f-2">Skills</h1>
+        <div class="services-container flex s-around h-50">
+            <div class="skills-left flex s-center items-center">
+                <img src="{% static 'images/pro.png' %}" alt="">
+            </div>
+
+            <div class="skills-right flex items-center">
+                <div class="skillss-container">
+                    <div class="python bar p-relative"><span class="bar-content left t-white">Python</span><span class="bar-content right-skills t-white">80%</span></div>
+                    <div class="html bar p-relative"><span class="bar-content left t-white">HTML</span><span class="bar-content right-skills t-white">80%</span></div>
+                    <div class="css bar p-relative"><span class="bar-content left t-white">CSS</span><span class="bar-content right-skills t-white">50%</span></div>
+                    <div class="django bar p-relative"><span class="bar-content left t-white">Django</span><span class="bar-content right-skills t-white">70%</span></div>
+                    <div class="mysql bar p-relative"><span class="bar-content left t-white">MySQL</span><span class="bar-content right-skills t-white">60%</span></div>
+                    <div class="powerbi-excel bar p-relative"><span class="bar-content left t-white">Power BI & Excel</span><span class="bar-content right-skills t-white">75%</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Projects Section -->
+    <section id="Projects">
+        <h1 class=" t-center my-2 t-white f-2">Projects</h1>
+        <div class="projects-container flex s-center">
+            <div class="projects-item flex f-col s-center items-center">
+               
+                <h1 class="t-white poppins">Ninja Fight(Game)</h1>
+                <p class="t-white poppins">This is a 2D action game inspired by the Naruto anime series, featuring a combat showdown between Naruto and Sasuke. The game includes dynamic fighting mechanics such as shuriken throws, health potions, and increasing difficulty levels to enhance replay value.It was built using Python and Pygame, and includes intuitive menu navigation, multiple levels, and smooth performance across Windows, Linux, and macOS platforms.</p>
+                <div class="buttons flex s-around">
+                    
+                    <a href="https://github.com/Pritesh2706/Ninja-Fight-Game-" target="_blanks" class="btn m-top live">Github</a>
+                </div>
+            </div>
+            <div class="projects-item flex f-col s-center items-center">
+               
+                <h1 class="t-white poppins">Portfolio Website</h1>
+                <p class="t-white poppins">This is my portfolio website, built using HTML, CSS, and Django to reflect my growth as a Python Developer and Data Analyst. The site features a vibrant yet organized design that highlights my coding journey, with sections dedicated to showcasing innovative projects and data insights. It offers an intuitive interface with quick access to my GitHub profile and resume, designed to engage visitors and demonstrate my ability to solve real-world problems through technology.</p>
+                <div class="buttons flex s-around">
+                    <a href="" target="_blanks" class="btn m-top live">Github</a>
+                </div>
+                   
+                </div>
+            </div>
+           
+         </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="Contact" class="m-b-1">
+        <h1 class=" t-center my-2 t-white f-2">Contact Me</h1>
+        <div class="contact-container flex s-around items-centers">
+            <div class="form" id="contactForm">
+                <form method="post" > 
+                    {% csrf_token %}
+                    <div class="name form-div">
+                        <input type="text" name="name" id="name" class="poppins" placeholder="Enter Your Name">
+                    </div>
+
+                    <div class="email form-div">
+                        <input type="email" name="email" id="" class="poppins" placeholder="Enter Your Email"
+                            required>
+                    </div>
+
+                    <div class="phone form-div">
+                        <input type="phone" name="number" id="" class="poppins" placeholder="Enter Your Phone"
+                            required>
+                    </div>
+                    
+                    <div class="textarea form-div">
+                        <textarea name="content" id="textarea" cols="30" rows="10" class="poppins"
+                            placeholder="Enter Messages"></textarea>
+                    </div>
+                    <button type="submit" class="btn poppins" id="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <ul class="flex s-center w-80 m-auto my-2 res">
+            <li><a href="#home" class="poppinss">Home</a></li>
+            <li><a href="#about" class="poppinss">About</a></li>
+            <li><a href="#skills" class="poppinss">Skills</a></li>
+            <li><a href="#projects" class="poppinss">Projects</a></li>
+            <li><a href="#portfolio" class="poppinss">Portfolio</a></li>
+        </ul>
+        <ul class="flex s-center w-80 font-awesome ">
+            <a href="https://www.linkedin.com/in/pritesh-bhere-712213350/" target="_blank">
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+            </a>
+            <a href="https://github.com/Pritesh2706" target="_blank">
+                <li><i class="fa-brands fa-github"></i></li>
+            </a>
+                <a href="https://www.instagram.com/__pritesh.27__/profilecard/?igsh=MTh5eXlscjg0aTA3aA==" target="_blank">
+                    <li><i class="fa-brands fa-instagram"></i></li>
+            </a>
+            
+        </ul>
+        <p class="t-center my-2 poppins">&copy; All Rights Reserved - <span class="cpy-white poppins">Pritesh Bhere 
+                </span></p>
+
+    </footer>
+     
+</body> 
+</html>
