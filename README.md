@@ -38,7 +38,7 @@ This portfolio highlights my journey with a clean, user-friendly design. It feat
 
 ## Future Plans 🚀
 
-- Add more projects, including advanced **data dashboards** and Python projects. 📉  
+- Add more projects, including advanced **Data Dashboards** and Python projects. 📉  
 - Enhance the design with **animations** and **mobile optimization**. 📱  
 - Integrate a **blog** to share my learning experiences and insights. ✍️  
 
